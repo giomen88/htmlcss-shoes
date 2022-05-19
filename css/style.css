@@ -14,7 +14,7 @@ h1 {
     font-size: 44px;
 }
 
-img {
+.product img {
     width: 100%;
 }
 
@@ -38,18 +38,46 @@ img {
     text-align: center;
 }
 
+/* nav */
+.skip {
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    right: 20px;
+    top: 20px;
+}
+
+.skip ul {
+    display: flex;
+    list-style-type: none;
+
+}
+
+.skip a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px 5px;
+    text-align: center;
+}
+
 /* section */
-.red {
+#brand-1 {
     background-color: brown;
     color: yellow;
 }
 
-.green {
+#brand-2 {
     background-color: green;
     color: yellow;
 }
 
-.yellow {
+#brand-3 {
     background-color: yellow;
     color: green;
 }
