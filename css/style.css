@@ -5,13 +5,51 @@
     box-sizing: border-box;
 }
 
+/* generics */
 body {
-    font: 'Rubik Mono One', sans-serif;
+    font-family: 'Rubik Mono One', sans-serif;
 }
 
-.products .red {
-    background-color: brown;
-    height: 100vh;
+h1 {
+    font-size: 44px;
+}
+
+img {
+    width: 100%;
 }
 
 /* utils */
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.row {
+    height: 100vh;
+    position: relative;
+}
+
+.product {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* section */
+.red {
+    background-color: brown;
+    color: yellow;
+}
+
+.green {
+    background-color: green;
+    color: yellow;
+}
+
+.yellow {
+    background-color: yellow;
+    color: green;
+}
