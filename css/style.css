@@ -1,0 +1,17 @@
+/* reset*{ */
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: 'Rubik Mono One', sans-serif;
+}
+
+.products .red {
+    background-color: brown;
+    height: 100vh;
+}
+
+/* utils */
