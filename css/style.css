@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+html {
+    overflow-y: hidden;
+}
+
 /* generics */
 body {
     font-family: 'Rubik Mono One', sans-serif;
@@ -15,22 +19,17 @@ h1 {
 }
 
 .product img {
-    width: 100%;
+    max-width: 100%;
 }
 
 /* utils */
-
-.container {
-    max-width: 700px;
-    margin: 0 auto;
-}
-
 .row {
     height: 100vh;
     position: relative;
 }
 
 .product {
+    max-width: 45%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -50,7 +49,6 @@ h1 {
 .skip ul {
     display: flex;
     list-style-type: none;
-
 }
 
 .skip a {
